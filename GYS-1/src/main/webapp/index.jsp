@@ -10,5 +10,19 @@
  
  
  <h1> hello world</h1>
+ 
+ 
+ 
+ <form action="/login">
+ 
+   <input type="text" name="username">
+   <br>
+   <input type="password" name="password">
+   
+   
+   <input type="submit" value="create">
+ </form>
+ 
+ 
 </body>
 </html>
