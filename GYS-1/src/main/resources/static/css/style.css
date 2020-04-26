@@ -1,0 +1,1164 @@
+@charset "ISO-8859-1";
+
+@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* GLOBEL CSS */
+
+
+ .btn.focus, .btn:focus{
+	outline: none;
+	box-shadow:none !important;
+	
+}
+
+/*END OF THE GOLOBEL CSS  */
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+ /* HEADER CSS */
+ 
+   
+   .header-area .container-fluid{
+    height: 70px;
+   }
+
+  .header-area {
+    position: sticky;
+    top: 0;
+    background-color:black;
+    z-index: 3020;    
+    width: 100%;
+   }
+  
+   .header-area .navbar {
+    background: transparent;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px; 
+   }
+
+   .header-area .navbar .nav .nav-item {
+    margin-right: 30px; 
+   }
+
+   .header-area .navbar .nav .nav-item .nav-link {
+    font: 500 12px/120px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px;
+    font-weight: bold;
+    display: inline-block; 
+   }
+        
+
+  .header-area .container-fluid .logo_h {
+    font: 500 12px/120px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px;
+    font-size: 25px;
+   }
+
+    .header-area .create-project-button{
+
+ 	  background-color: #0057ff;
+ 	  text-transform: none;
+ 	  color: white;
+ 	  border-radius: 20px;
+    }
+
+
+    .header-area .search{
+      margin-left:-60px;
+	 }
+
+   .header-area .search input[type="text"]{
+      width: 250px;
+      height: 35px;
+      margin-left: ;
+      border-radius: 11px;
+      box-shadow: 3px 4px 3px 4px #f8f8ff inset;
+      border: none;
+      outline: none;
+      padding: 4px;
+     }
+     
+	.header-area .search-button{
+     cursor: pointer;
+     position: relative;
+     right: 45px;
+     top:2px;
+     border: none;
+     background:transparent;
+     outline: none;
+    }
+
+	.header-area .search-button i{
+        color: #0057ff;
+    }
+	
+	
+	
+	
+/* END OF THE HEADER CSS */	
+/* /* INDEX HEADER CSS
+
+  .header-area .container-fluid{
+    height: 70px;
+  }
+  
+  .z-index{
+   z-index:30000;
+  }
+
+  .header-area {
+   position: sticky;
+   top: 0;
+   background-color:black;
+   z-index: 3020;
+   width: 100%;
+  }
+  
+  .header-area .navbar {
+   background: transparent;
+   padding: 0px;
+   border: 0px;
+   border-radius: 0px; 
+  }
+
+  .header-area .navbar .nav .nav-item {
+   margin-right: 30px; 
+  }
+
+  .header-area .navbar .nav .nav-item .nav-link {
+   font: 500 12px/120px "Roboto", sans-serif;
+   text-transform: uppercase;
+   color: #fff;
+   padding: 0px;
+   font-weight: bold;
+   display: inline-block; 
+  }
+        
+
+  .header-area .container-fluid .logo_h {
+    font: 500 12px/120px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px;
+    font-size: 25px;
+  }
+
+  Betweener  
+
+
+
+ .header-area .search{
+   margin-left: 50px;
+   padding-left: 40px;
+  }
+
+  .header-area .search-icon{
+   color: #fff  ; 
+   font: 500 12px/120px "Roboto", sans-serif;
+   position: relative;
+   left: -30px;
+  }
+
+ .header-area .search .custom-input{
+   width: 350px;
+   outline: none;
+   background:transparent;
+   border:none;
+   border-bottom: 2px solid white;
+   color: white;
+   text-transform: lowercase;
+   text-align:center;
+  } 
+
+END OF THE HEADER CSS  
+ */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  /*HERO CSS*/
+
+		.hero-banner .hero-img{
+           width: 560px ;
+           height: 839px;
+           margin-top: -250px;
+           margin-left: 90px;          
+		}
+
+		.hero-banner .hero-img img{
+
+			width: 100%;
+			height: 100%;
+
+        }
+
+        .hero-banner{
+        	height: 100%;
+        }
+
+       .hero-banner .heading{
+
+       	margin-top:90px;
+       	font-size: 5.5rem;
+       	font-weight: 900;
+       }
+
+       .world{
+       	position: relative;
+       	top:42px;
+       	padding: 0px;
+       }
+       
+       .sign-up-button{
+         width: 200px;
+         font-weight: bold;
+         font-size: 2.3rem;
+         margin-top:100px;
+         margin-left: 225px;
+       }
+
+       /*END OF THE HERO CSS*/
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* SIGN UP CSS  */
+
+.signup-form-container{
+   box-sizing: border-box;
+   width: 56%;
+	 margin: 50px auto;
+	 margin-top: 20px;
+   border-radius: 10px;
+   padding: 50px;
+   padding-left: 71px;
+   padding-right: 71px;
+   /*border: 3px solid black;*/
+   }
+
+   .signup-form-container .form-group  i {
+    position: relative;
+    bottom: -34px;
+    padding: 0px;
+    margin:0px;
+   }
+
+   .signup-form-container .form-group input{
+   background:  transparent;
+   border: none;
+   border-bottom: solid 3px black ;
+   border-radius:0px; 
+   padding-left: 50px;
+   box-shadow:none !important;
+   }
+
+   .signup-form-container .form-group{
+    margin-top: -11px;   
+   }
+
+   .signup-form-container .lastname_formater{
+   	margin-top: 33px;
+   	padding-left: 11px;	
+    }
+
+   .signup-form-container .button{
+   	width: 200px;
+   	margin-left: 34%;
+   	margin-top: 30px;
+   	border-radius: 30px;
+   	background: black;
+   }
+
+   /* .signup-form-container .text-info{
+   	padding: 0;
+   	margin: 0px;
+   	position: relative;
+   	right: -20px;
+   	bottom: 30px;
+    } For signup button */ 
+    
+    
+/* END OF THE SIGNUP CSS */    
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+/* LOGIN CSS */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+ .login-form-container {
+	width: 500px;
+	margin: 50px auto;
+	padding: 70px;
+	border-radius: 10px;
+ }
+
+ .login-form-container .form-group  i {
+	position: relative;
+	bottom: -34px;
+	padding: 0px;
+	margin: 0px;
+ }
+
+ .login-form-container .form-group input {
+	background: transparent;
+	border: none;
+	border-bottom: solid 3px black !important;;
+	border-radius: 0px;
+	padding-left: 50px;
+	box-shadow: none !important;
+ }
+
+  .login-form-container .button {
+	width: 200px;
+	margin-left: 21%;
+	margin-top: 30px;
+	border-radius: 30px;
+	background: black;
+  }
+
+ .login-form-container .forgot-password {
+	position: relative;
+	right: -48px;
+	bottom: 20px;
+ }
+
+ .login-form-container  .create-info {
+	text-align: center;
+	position: relative;
+	left: 59px;
+	top: 36px;
+  }
+
+ /* END OF THE LOGIN CSS */ 
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */ 
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+ /* FOOTER CSS */
+ 
+ 
+ .site-footer{ 
+   /* background-color:#26272b; */
+   background-color:black;
+   padding:45px 0 20px;
+   font-size:15px;
+   line-height:24px;
+   color:#737373;
+   margin-top: 200px;
+  }
+
+ .site-footer hr{
+   border-top-color:#bbb;
+   opacity:0.5
+  }
+
+ .site-footer hr.small{
+   margin:20px 0
+  }
+
+ .site-footer h6{
+   color:#fff;
+   font-size:16px;
+   text-transform:uppercase;
+   margin-top:5px;
+   letter-spacing:2px
+  }
+
+ .site-footer a{
+   color:#737373;
+  }
+
+ .site-footer a:hover{
+   color:#3366cc;
+   text-decoration:none;
+  }
+
+ .footer-links{
+   padding-left:0;
+   list-style:none
+  }
+
+ .footer-links li{
+   display:block
+  }
+
+ .footer-links a{
+   color:#737373
+  }
+
+ .footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+   color:#3366cc;
+   text-decoration:none;
+  }
+
+ .footer-links.inline li{
+   display:inline-block
+  }
+ 
+ .copyright-text{
+   margin:0
+ }
+
+/* END OF THE FOOTER CSS */
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+/* INDEX CSS */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+  .p_50 {
+   padding-top: 50px;
+   padding-bottom: 50px; 
+  } 
+
+
+  .main-title {
+   text-align: center;
+   max-width: 670px;
+   margin: 0px auto 75px; 
+   padding-top: 30px;
+  }
+
+  .main-title h2 {
+    font-family: "Heebo", sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #222222;
+    margin-bottom: 10px;
+    text-transform: uppercase; 
+   }
+
+  .main-title p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    color: #777777;
+    margin-bottom: 0px; 
+  }
+
+
+/*+++++++++++++++ Project Area +++++++++++ */
+
+  .project-container{
+   box-sizing: border-box;
+   padding-bottom: 40px;
+  }
+
+  .project-container .project-img{
+   border-radius: 4px;
+   display: block;
+   overflow: hidden;
+   width: 310px;
+   height: 242px;
+   object-fit:cover;
+  }  
+   
+  .project-container .project-bottom {
+   margin-top: 3px;
+  }
+
+  .project-container .project-bottom .user-img{
+   overflow: hidden;
+   width: 30px;
+   height: 30px;
+   object-fit: cover;
+   border-radius: 50%;
+   display: inline-block;
+   cursor: pointer;
+  }
+   
+  .project-container .project-name{
+   font-size: 16px;
+   font-family: "Roboto", sans-serif;
+   margin-top: 2px;
+   font-weight: bold;
+   color:white;
+   background-color: black;
+   text-align: center;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap; 
+   border-radius: 5px;
+  }
+  
+  .project-container .project-bottom .display-name{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+  }
+
+  .project-container .project-bottom  a{
+   color: black;
+   font-weight: bold;
+  }
+
+  .project-container .project-bottom .like-comment{
+   display: inline-block;
+   float: right;
+   padding-right: 10px;
+  }
+
+
+
+/* Load More */
+
+ .loadMore {
+   width: 200px;
+   color: #fff;
+   display: block;
+   text-align: center;
+   margin: 20px auto;
+   padding: 10px;
+   border-radius: 10px;
+   border: 1px solid transparent;
+   background-color: black;
+  }
+
+  .loadMore:hover {
+    color: blue;
+   background-color: #fff;
+   border: 1px solid blue;
+   text-decoration: none;
+  }
+
+
+/* END OF THE INDEX CSS */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* PROEJCT UPLOAD FORM CSS */
+
+
+  body{
+    font-weight: 600;
+    /* background: #121212; for dark mode*/
+    }
+   
+
+  .project-upload-container{
+     margin: 50px;
+     padding: 30px;
+     border-radius: 10px;
+     font-size:1.3rem;
+    }
+     
+    .project-upload-container .button{
+     width: 267px;
+     border-radius: 30px;
+     background: black;
+    } 
+
+    .project-upload-container .form-group input[type="text" ],input[type="url"]{
+     border: none;
+     border-bottom: solid 3px black !important;;
+     background:  transparent;
+     border-radius:0px; 
+     padding-left: 8px;
+     box-shadow:none !important;
+    }
+   
+    .project-upload-container select { 
+     width: 400px; 
+     text-align-last:center; 
+     border: 2px solid black !important;
+    }
+
+    .project-upload-container textarea{
+      border: 2px solid black !important;
+    }
+ /* END OF THE PROJECT UPLOAD FORM CSS */
+ 
+ /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+ 
+ 
+ /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+ 
+ /* PROJECT EDIT FORM CSS */
+ 
+   body{
+   background: #f9f9f9;
+   /* background: #121212; for dark mode*/
+  }
+  
+  .project-edit-container{
+   margin: 50px;
+   padding: 30px;
+   border-radius: 10px;
+   font-size:1.3rem;  
+  }
+
+  .project-edit-container .button{
+   width: 267px;
+   background: black;
+   border-radius: 30px;
+  } 
+
+  .project-edit-container select { 
+   text-align-last:center; 
+   border: 2px solid black !important;
+   width: 400px; 
+  }
+  
+  .project-edit-container label{
+    color: #888;
+    font-weight: bold;
+  } 
+ 
+ /* END OF THE PROJECT EDIT CSS */
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */ 
+
+/* PROFILE CSS */
+
+   .display-user{
+    
+     position: sticky !important;
+     top: 79px;
+     left: 13px;
+    }
+
+
+
+   .profile-header{
+     height: 200px;  
+    }
+
+    .lighten-4 {
+     background-color: #f5f5f5!important;
+    }
+
+    .dark-grey-text {
+     color: #4f4f4f!important;
+    }
+
+    .profile-header .total-projects{
+     background-image: linear-gradient(to right,#cc2b5e,#753a88);;
+     height: 180px;
+    
+     font-weight: 600;
+     color:white;
+     
+    }
+
+    .profile-header .profile-text{
+     margin-left: 226px;
+     margin-top: 67px;
+     padding: 10px;
+     color:black;
+     font-weight:800;
+     
+     border-radius: 10px;
+     font-size:3.3rem; 
+    }
+    
+    .project .p_header .p_u_name{
+     margin-left: 16px;
+     font-size: 19px;
+    }
+   
+    .project .p_header{
+     height: 66px;
+     background-color: white;
+    }
+
+    .project .p_image,.p_video{
+     height: 100%;
+     width: 100%;
+   	 max-height:600px;
+     object-fit: cover;
+    }
+    .project .p_video{
+     width:650px;
+     height:688px;
+     object-fit: cover;
+    }
+
+    .comment_text{
+     display: inline-block;
+     box-sizing: border-box;
+     color: #1c1e21;
+     background-color: #f2f3f5;
+     border-radius: 18px;
+     padding:8px 10px;
+     margin: 6px;
+    }
+
+    .card,.project{
+     margin-right: 0px;
+     padding-right: 0px;
+    }
+
+    .comment .comment-box .input-text{
+     border-radius: 23px;
+     width: 72%;
+     outline-style: none;
+     padding: 6px 15px;
+     margin-left: 25px;
+     border: 1px solid lightgrey;
+    }
+    
+ /* END OF THE PROFILE CSS */
+ 
+ /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */  
+ 
+  
+ 
+ /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  
+   /* PROFILE EDIT CSS */
+   
+   
+	body{
+ 	background: #f9f9f9;
+  }
+
+
+
+	
+  .edit-profile{
+    margin-top: 30px;
+  }
+
+  .edit-profile label{
+   color: #888;
+   font-weight: bold;
+  }
+
+ .edit-profile .profile-img{
+   border-right: 1px solid grey;
+   height: 100%;
+   padding-top: 30px;
+ }
+
+ #imageUploadLabel{
+   margin-top:10px; 
+   margin-left: 31px;
+   width: 100px;
+  }
+
+ .edit-profile .profile-img img{
+   width: 132px;
+   height: 128px;
+   border-radius: 50%;
+  }
+
+  .edit-profile .profile-img input[type="file"]{
+    margin-left: 20px;
+    overflow: hidden;
+  }
+
+ .edit-profile .button{
+  width: 200px;
+  margin-left: 126px;
+ }
+   
+ /* END OF THE PROFILE EDIT CSS*/
+ 
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* SHOW PROJECT */
+
+    .grey-text {
+        color: #9e9e9e!important;
+     }
+    
+    .spacing{
+    letter-spacing: 2px;
+    }
+    
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%
+    }
+    
+    .flex-center p {
+        margin: 0;
+     }
+    
+    
+    .dark-grey-text {
+        color: #4f4f4f!important;
+    }
+
+
+	
+	.view {
+    position: relative;
+    overflow: hidden;
+    
+  }
+   
+   .view .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    }
+     
+    .overlay .mask {
+     opacity: 0;
+     transition: all .4s ease-in-out;
+    }
+
+    .overlay .mask:hover {
+        opacity: 1;
+    }
+    .grey {
+     background-color: #9e9e9e!important;
+    }
+  
+   .lighten-4 {
+    background-color: #f5f5f5!important;
+    }
+   
+   
+   .rgba-white-slight, .rgba-white-slight:after {
+       background-color: rgba(255, 255, 255, .1);
+   }
+   
+    .article {
+       font-size: .9rem;
+       line-height: 1.8;
+    }
+   
+    .font-small {
+       font-size: .9rem;
+    }
+
+   	.project .p_image{
+   		height: 100%;
+   		width: 100%;
+   		max-height:600px;
+       object-fit: cover;
+    }
+
+    .project .p_container{
+   		height: 640px;
+      width: 845px;
+     overflow: hidden;
+    }
+
+   	.project .p_video{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+   	}
+
+    .project .align-like-comment{
+       font-size: 25px;
+       margin-top: -25px;
+    } 
+   
+ /* END OF THE SHOW PROJECT */
+ 
+ /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+ 
+   
+ /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+ 
+ /* HOME CSS  */
+ <!-- ROOT CSS -->
+   
+     body {
+       font: 400 15px  sans-serif;
+       line-height: 1.8;
+       color: #818181;
+     }
+  
+   
+
+      /* Profile container */
+    .profile {
+      margin: 20px 0;
+     
+      
+    }
+    
+    /* Profile sidebar */
+    
+    .profile-sidebar {
+      padding: 20px 0 10px 0;
+      background: #fff;
+      position: sticky;
+      top: 150px;
+    }
+    
+    .profile-userpic img {
+      float: none;
+      margin-left: 47px;
+      margin-top: -58px;
+      height: 162px;
+      width:162px;
+      border-radius: 50%;
+      border:2px solid black;
+    }
+    
+    .profile-usertitle{
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .profile-usertitle-name {
+      color: #5a7391;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 7px;
+    }
+    
+    .profile-usertitle-job {
+      text-transform: uppercase;
+      color: #5b9bd1;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    
+    .profile-userbuttons {
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+    .profile-userbuttons .btn {
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 6px 15px;
+      margin-right: 5px;
+    }
+    
+    .profile-userbuttons .btn:last-child {
+      margin-right: 0px;
+    }
+        
+    .profile-usermenu {
+      margin-top: 30px;
+    }
+    
+    .profile-usermenu ul li {
+      border-bottom: 1px solid #f0f4f7;
+    }
+    
+    .profile-usermenu ul li:last-child {
+      border-bottom: none;
+    }
+    
+    .profile-usermenu ul li a {
+      color: #93a3b5;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    
+    .profile-usermenu ul li a i {
+      margin-right: 8px;
+      font-size: 20px;
+    }
+    
+    .profile-usermenu ul li a:hover {
+      background-color: #fafcfd;
+      color: #5b9bd1;
+    }
+    
+    .profile-usermenu ul li a.active {
+      border-bottom: none;
+    }
+    
+    .profile-usermenu ul li a.active  {
+      color: #5b9bd1;
+      background-color: #f6f9fb;
+      border-left: 2px solid #5b9bd1;
+      margin-left: -2px;
+    }
+    
+    /* Profile Content */
+    .profile-content {
+      padding: 20px;
+      background: #fff;
+      min-height: 460px;
+    }
+
+  
+    <!-- END OF THE POFILE CSS -->
+  
+  
+    /*  .project .p-header .p_u_name{
+           margin-left: 16px;
+           font-size: 19px;
+         } */
+        
+       /*  .project .p-header{
+             height: 66px;
+             background-color: white;
+        }
+      */
+       .project .p-image,.p_video{
+           width:650px;
+           height:650px;
+           object-fit: cover;
+       }
+       
+     /*  .project .p_video{
+           width:650px;
+           height:688px;
+           object-fit: cover;
+       } */
+     
+       /* .comment_text{
+           display: inline-block;
+           box-sizing: border-box;
+           color: #1c1e21;
+           background-color: #f2f3f5;
+           border-radius: 18px;
+           padding:8px 10px;
+       } */
+
+    /*  .card,.project{
+       
+       margin-right: 0px;
+       padding-right: 0px;
+     }
+      */
+     .comment_img .comment_user_img{
+       width: 37px; 
+       height: 37px;
+       border-radius: 50%;
+     }
+     
+    /*   .comment .comment-box .input-text{
+         border-radius: 23px;
+         width: 72%;
+         outline-style: none;
+         padding: 6px 15px;
+         margin-left: 25px;
+         border: 1px solid lightgrey;
+     }
+ */
+
+  /* END OF THE HOME CSS  */
+  
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+ 
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+   
+    /* FEEDBACK CSS */
+    
+    .contact-form{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 60%;
+        margin: auto; 
+        margin-top:70px;
+        box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.15) ;
+        border-radius: 20px;
+     }
+        
+      
+    
+    .contact-form .form-control{
+        border-radius:16px;
+    }
+    
+    .contact-image{
+        text-align: center;
+    }
+    
+    .contact-image img{
+        border-radius: 6rem;
+        width: 11%;
+        margin-bottom: 3%;
+        margin-top:6px;
+        transform: rotate(29deg);
+    }
+    
+    .contact-form form{
+        padding: 8%;
+        padding-bottom: 15%;
+    }
+    
+    .contact-form form .row{
+        margin-bottom: -7%;
+    }
+    
+    .contact-form h3{
+        margin-bottom: 8%;
+        margin-top: -10%;
+        text-align: center;
+        color:black;
+    }
+    
+    
+   /* END OF THE FEEDBACK CSS */ 
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+ 
+ 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+     
+   	/* ABOUT US CSS */
+   	
+   	
+	 .category-img{
+     width:200px;
+   }
+
+   .about-section .about-us-title{
+   	font-weight: 700;
+   	font-size: 2.1rem;
+   }
+   
+   .about-section  .line-break{
+
+   	border: 3px solid black;
+ 
+   }
+
+   .about-us-content{
+   	border: 34px solid black; 
+   	padding:30px;
+    word-spacing: 4px; 
+    line-height: 1.5; 
+    font-size: 2rem; 
+    font-weight: 600;
+  }
+  
+  
+  /*END OF THE ABOUT US*/
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */ 
+ 
+ 
