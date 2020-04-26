@@ -17,10 +17,9 @@ public class Welcome {
 	}
 	
 	
-	@RequestMapping("/login")
-	public String login(Login login) {
-		lr.save(login);
-		
-		return "index.jsp";
-	}
+	/*
+	 * @RequestMapping("/login") public String login(Login login) { lr.save(login);
+	 * 
+	 * return "index.jsp"; }
+	 */
 }
