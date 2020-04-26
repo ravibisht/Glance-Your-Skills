@@ -13,7 +13,7 @@ public class Welcome {
 	@RequestMapping("/")
 	public String home() {
 		
-		return "index.jsp";
+		return "index";
 	}
 	
 	
