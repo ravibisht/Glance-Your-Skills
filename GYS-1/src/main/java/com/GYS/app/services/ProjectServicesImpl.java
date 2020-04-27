@@ -59,12 +59,14 @@ public class ProjectServicesImpl implements ProjectServices {
 	}
 
 	
-	public void deleteProjectById(int project_id) {
+	public void deleteProjectById(int projectId) {
        
-		Project project=repo.getOne(project_id);
-		imgAndVideoService.deleteProjectImages(project.getImage());
-		imgAndVideoService.deleteProjectVideo(project.getVideo());
-		repo.deleteById(project_id);
+		/*
+		 * Project project=repo.getOne(projectId);
+		 * imgAndVideoService.deleteProjectImages(project.getImage());
+		 * imgAndVideoService.deleteProjectVideo(project.getVideo());
+		 */
+		repo.deleteById(projectId);
 	}
 
 	@Override
