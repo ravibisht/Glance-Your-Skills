@@ -17,7 +17,7 @@ import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-
+import javax.websocket.ClientEndpoint;
 
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.DynamicUpdate;
@@ -54,7 +54,7 @@ public class Project {
    	private String shortDesc;
 	
 	@Lob
-	@Column
+	@Column(columnDefinition ="TEXT" )
 	private String description;
 	
 	@Column(name="external_link")
