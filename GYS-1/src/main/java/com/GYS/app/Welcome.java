@@ -10,12 +10,11 @@ public class Welcome {
 	@Autowired
 	LoginRepo lr;
 	
-	@RequestMapping("/")
-	public String home() {
-		
-		return "index";
-	}
-	
+	/*
+	 * @RequestMapping("/") public String home() {
+	 * 
+	 * return "index"; }
+	 */
 	
 	/*
 	 * @RequestMapping("/login") public String login(Login login) { lr.save(login);

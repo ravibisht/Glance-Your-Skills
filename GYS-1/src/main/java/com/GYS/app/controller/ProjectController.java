@@ -161,28 +161,31 @@ public class ProjectController {
 		return "error/error";
 	}
 
-	/*
-	 * @RequestMapping(value = { "/", "index", "/value}" }) public String
-	 * showProjectForWelcomePage(Model model, @RequestParam(defaultValue = "12") int
-	 * value, HttpSession session) {
-	 * 
-	 * 
-	 * try { String
-	 * username=((User)session.getAttribute("loggedInUser")).getUsername();
-	 * 
-	 * if(username!=null) {
-	 * 
-	 * return "redirect:/user/home"; }
-	 * 
-	 * } catch(Exception e) { System.out.println(e); }
-	 * 
-	 * 
-	 * Page<Project> projects = ps.showProjectByPage(PageRequest.of(0, value));
-	 * 
-	 * model.addAttribute("projects", projects); model.addAttribute("value", value);
-	 * 
-	 * return "user/Index"; }
-	 */
+	
+	  @RequestMapping(value = { "/", "index", "/value}" }) public String
+	  showProjectForWelcomePage(Model model, @RequestParam(defaultValue = "12") int
+	  value, HttpSession session) {
+	  
+	 
+	  try { String
+	  username=((User)session.getAttribute("loggedInUser")).getUsername();
+	  
+	  if(username!=null) {
+	  
+	  return "redirect:/user/home"; 
+	  
+	  }
+	  
+	 } catch(Exception e) { System.out.println(e); }
+	  
+	  
+	  Page<Project> projects = ps.showProjectByPage(PageRequest.of(0, value));
+	 
+	  model.addAttribute("projects", projects); model.addAttribute("value", value);
+	  
+	  return "user/Index"; 
+	  }
+	 
 
 	@RequestMapping("/user/home")
 	public String homeProjects(Model model, HttpSession session) {
