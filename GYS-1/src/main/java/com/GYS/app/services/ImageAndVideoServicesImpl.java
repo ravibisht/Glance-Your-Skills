@@ -14,9 +14,10 @@ public class ImageAndVideoServicesImpl implements ImageAndVideoServices{
 	
 	@Override
       public String saveUserProfileImage(MultipartFile imageFile) throws Exception {
-		String userImagePath=new File("").getAbsolutePath();+"//src//main//resources//static//Users";
+		String userImagePath=new File("").getAbsolutePath()+"//src//main//resources//static//Users";
 	    String imageFileName="default-user.png";		
-	   
+	   System.out.println("*****************************************************************************");
+	      System.out.println(new File("").getAbsolutePath());
 	     if (!imageFile.isEmpty()) {
 	          imageFileName = UUID.randomUUID().toString();
 	        
