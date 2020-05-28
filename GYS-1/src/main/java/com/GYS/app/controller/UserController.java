@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-
+import java.io.File;
+import java.io.IOException;
 import com.GYS.app.model.User;
 import com.GYS.app.services.UserServices;
 
@@ -82,6 +83,25 @@ public class UserController {
 	    @RequestMapping(value="/signup")
 		public String singUpForm() {
 			
+
+
+    	try{
+
+    	    File temp = File.createTempFile("i-am-a-temp-file", ".tmp" );
+
+    	    String absolutePath = temp.getAbsolutePath();
+    	    System.out.println("File path : " + absolutePath);
+
+    	    String filePath = absolutePath.
+    	    	     substring(0,absolutePath.lastIndexOf(File.separator));
+
+    	    System.out.println("File path : " + filePath);
+
+    	}catch(IOException e){
+
+    	    e.printStackTrace();
+
+    	}
 			return "user/SignUp";
 		}
 		
