@@ -14,7 +14,7 @@ public class ImageAndVideoServicesImpl implements ImageAndVideoServices{
 	
 	@Override
       public String saveUserProfileImage(MultipartFile imageFile) throws Exception {
-		String userImagePath=System.getProperty("user.dir")+"\\src\\main\\resources\\static\\Users";
+		String userImagePath=System.getProperty("user.dir")+"//src//main//resources//static//Users";
 	    String imageFileName="default-user.png";		
 	   
 	     if (!imageFile.isEmpty()) {
