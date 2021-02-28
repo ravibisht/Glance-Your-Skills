@@ -18,7 +18,7 @@ The software which was required for developing the application is as under:
 
 ## Screenshot of Project
 
- 1. **Home Page**![enter image description here](https://user-images.githubusercontent.com/47188858/109420965-51bc9e00-79fb-11eb-924d-458a0528a00e.png)
+ 1. ##**Home Page**![enter image description here](https://user-images.githubusercontent.com/47188858/109420965-51bc9e00-79fb-11eb-924d-458a0528a00e.png)
  
  
  2. **Category Page** 
