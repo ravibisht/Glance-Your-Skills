@@ -22,9 +22,11 @@ The software which was required for developing the application is as under:
  
  
  2. **Category Page** 
+ 
  ![enter image description here](https://user-images.githubusercontent.com/47188858/109421024-8d576800-79fb-11eb-9bda-461be4e4ebde.png)
  
  3.  **Show Project Page**
+ 
 ![screencapture-localhost-8080-show-project-44-2020-06-18-13_19_00](https://user-images.githubusercontent.com/47188858/109421153-2d14f600-79fc-11eb-84ad-b1d532c794ab.png)
 
 
@@ -33,18 +35,23 @@ The software which was required for developing the application is as under:
 ![about us](https://user-images.githubusercontent.com/47188858/109421295-b4fb0000-79fc-11eb-8217-5f68ad8f0126.png)
 
  5.  **Feedback**
+ 
  ![feedback](https://user-images.githubusercontent.com/47188858/109421362-f7bcd800-79fc-11eb-8617-31d7bf517dc1.png)
 
  6.  **Log In Page**
+ 
  ![final login ](https://user-images.githubusercontent.com/47188858/109421390-20dd6880-79fd-11eb-8ce1-c8fe29d6eaae.png)
 
  7.  **Sign Up Page**
+ 
 ![sign up](https://user-images.githubusercontent.com/47188858/109421448-5c783280-79fd-11eb-8346-38be8f843e8b.png)
 
  8.  **Forgot Password Page**
+ 
 ![forgot password](https://user-images.githubusercontent.com/47188858/109421477-7c0f5b00-79fd-11eb-9967-21558e4172c0.png)
 
  9. **Change Password**
+ 
 ![change Password](https://user-images.githubusercontent.com/47188858/109421552-dad4d480-79fd-11eb-9e17-bf153955f4e1.png)
 
 10. **Main Feed Page**
@@ -56,6 +63,7 @@ The software which was required for developing the application is as under:
 ![User Profile](https://user-images.githubusercontent.com/47188858/109421691-5b93d080-79fe-11eb-9e63-64c54d02230c.png)
 
 12. **Edit Profile Page**
+
 ![edit account](https://user-images.githubusercontent.com/47188858/109421751-a31a5c80-79fe-11eb-9e23-ebe86fca89ee.png)
 
 13. **Upload Project Page**
@@ -63,6 +71,47 @@ The software which was required for developing the application is as under:
 ![Project Upload](https://user-images.githubusercontent.com/47188858/109421783-c7763900-79fe-11eb-8ddb-33b48747c2a8.png)
 
 14. **Error Page 404**
+
 ![final-404](https://user-images.githubusercontent.com/47188858/109421831-fa203180-79fe-11eb-8bbd-719c1e3a18af.png)
 
-15. ****
+
+
+#Admin Panel
+
+1. **Admin Login**
+
+![login](https://user-images.githubusercontent.com/47188858/109422336-23da5800-7a01-11eb-85f7-092035c4a4d5.png)
+
+2. **Admin Dashboard Home Page**
+
+![final home](https://user-images.githubusercontent.com/47188858/109422354-305eb080-7a01-11eb-911b-2b3cb8d45935.png)
+
+3. **Show User Page**
+
+![show user](https://user-images.githubusercontent.com/47188858/109422362-3785be80-7a01-11eb-9125-007eedbdcd50.png)
+
+4. **Show User Profile**
+
+![usreprofile](https://user-images.githubusercontent.com/47188858/109422365-3a80af00-7a01-11eb-867a-2699ea2decc1.png)
+
+5. **Show Project Page**
+
+![show-projects](https://user-images.githubusercontent.com/47188858/109422537-f641de80-7a01-11eb-9f76-498c4ccf7ba6.png)
+
+6. **Show Project Categories**
+
+![project-category](https://user-images.githubusercontent.com/47188858/109422558-15d90700-7a02-11eb-9af6-01392817b292.png)
+
+7. **Add Project Category**
+
+![add category](https://user-images.githubusercontent.com/47188858/109422584-2ee1b800-7a02-11eb-9af9-cdacebe0bf3a.png)
+
+8. **Show Project Report**
+
+![report](https://user-images.githubusercontent.com/47188858/109422628-5c2e6600-7a02-11eb-8b22-f7895baaf194.png)
+
+
+
+## Gantt Chart
+![gannt chart](https://user-images.githubusercontent.com/47188858/109422699-ac0d2d00-7a02-11eb-8d6f-0d69e58ac9d9.png)
+
